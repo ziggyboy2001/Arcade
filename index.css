@@ -1,0 +1,115 @@
+body{
+    background-image: linear-gradient(
+        to right,
+        rgb(25, 25, 25),
+        rgb(38, 38, 38),
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+        #917d0e,
+        #ebe012
+      );
+}
+table{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+td{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(62, 62, 62);
+    background-image: radial-gradient(
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+        rgb(62, 62, 62),
+         #ebe012);
+}
+td:hover{
+    background-image: #ebe012;
+}
+td:active{
+    box-shadow: inset 0px 0px 10px #ebe012;
+    border: 1px solid black;
+    transform: border(0px);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px #ebe012;
+ }
+td {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border: 3px solid black;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 5px #ebe012;
+    box-shadow: 0px 0px 2px #ebe012;
+
+ }
+  #newGameBtn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #383838;
+    border:1px solid #ebe012;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px#ebe012;
+    color:#ebe012;
+    text-transform: uppercase;
+  }
+  #newGameBtn:hover{
+    box-shadow: none;
+}
+  #newGameBtn:active{
+    box-shadow: inset 0px 0px 10px #ebe012;
+    border: 1px solid black;
+    transform: border(0px);
+}
+#playerOneName{
+    color:#ebe012;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-left: 3px;
+    border: 2px solid#626262;
+    border-radius: 5px;
+    width: 200px;
+}
+#playerOneName:hover{
+    box-shadow: inset 0px 0px 10px #626262;
+}
+#playerOneName:active{
+    box-shadow: inset 0px 0px 10px #ebe012;
+    border: 2px solid#ebe012;
+}
+#playerTwoName{
+    color:#ebe012;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-left: 3px;
+    border: 2px solid#626262;
+    border-radius: 5px;
+    width: 200px;
+}
+#playerTwoName:hover{
+    box-shadow: inset 0px 0px 10px #626262;
+}
+#playerTwoName:active{
+    box-shadow: inset 0px 0px 10px #ebe012;
+    border: 2px solid#ebe012;
+}
+.rules{
+    color:#ebe012;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform:uppercase;
+}
